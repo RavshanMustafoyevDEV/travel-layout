@@ -1,0 +1,25 @@
+// Styles Import
+@use './styles/nav';
+@use './styles/vars';
+@use './styles/header-sec';
+@use './styles/homes';
+@use './styles/newsletter';
+@use './styles/footer';
+@use './styles/resp-nav';
+
+
+
+// Font import
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+
+

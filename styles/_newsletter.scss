@@ -1,0 +1,54 @@
+@use './vars' as style;
+
+.newsletter{
+    background: #D9D9D9;
+
+    .content{
+        justify-content: center;
+        align-items: center;
+
+        .header{
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .input{
+            max-width: 30rem;
+            background: #22283C;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            input{
+                width: 75%;
+                padding: 0 20px;
+                height: 2.8rem;
+                border: none;
+                outline: none;
+                color: white;
+                font-family: Poppins;
+                font-weight: 600;
+                background: #22283C;
+            }
+
+            button{
+                height: 2.8rem;
+                width: 25%;
+                border: none;
+                background: style.$purple;
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                font-family: Poppins;
+            }
+        }
+    }
+}
+
+
+
+

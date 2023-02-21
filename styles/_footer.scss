@@ -1,0 +1,66 @@
+@use './vars' as style;
+
+
+.footer{
+    background: #0C1218;
+    color: white;
+    font-family: Poppins;
+
+    .logo-nav{
+        display: flex;
+        align-items: center;
+    
+        .logo-name{
+            margin-left: 1rem;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+
+    .contact-item{
+        align-items: center;
+
+        i{
+            margin-right: 1rem;
+        }
+    }
+
+    .foo-para{
+        color: white;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .header-col{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .follow-items{
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tour-item{
+        cursor: pointer;
+    }
+
+    .gallery .ro{
+        .col{
+            background: #D9D9D9;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 5px;
+        }
+    }
+
+}
+
+
+
+

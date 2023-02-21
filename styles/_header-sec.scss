@@ -1,0 +1,22 @@
+@use './vars' as style;
+
+
+.header-section{
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/vector.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .header-item{
+        color: style.$text-color;
+        font-weight: 700;
+    }
+}
+
+
+
